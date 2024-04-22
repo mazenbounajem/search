@@ -11,11 +11,85 @@
                 width: 200px;
                 border: 3px solid #c4d7a9;
                 padding: 10px;
+                color: white;
             }
+            body{
+               background-color:black;
+            }
+            h1{
+                color: white;
+            }
+            .appbar{
+                
+                
+                font-size: 20px;
+                margin: 25px 35px;   
+            }
+            
+            .find{
+                height: 30px;
+                display: table-cell;
+                vertical-align: middle;
+                padding-left:45px ;
+                color: aliceblue;
+            }
+            label{
+                color: #969ba1;
+                margin-left: 45px;
+                
+                
+            }
+            input[type="text"] {
+                width: 20%;
+                margin-left: 30px;
+                text-align: left;
+                border: 1px solid #5f6368 ;
+                color: #bdc1c6 ;
+                background-color: transparent;
+                min-width: 167px;
+                min-height: 41px;
+            }
+            input[type="submit"]{
+                
+            background: #8ab4f8;
+            border-color: #8ab4f8;
+            color: #202124;
+            user-select: none;
+            line-height: 100%;
+            height: 30px;
+            min-width: 120px;
+            
+            margin-left:432px;
+        
+            }
+            
+
     </style>
 </head>
 <body>
     <a href="index.html" target="index.html">Google Search</a>
+    <h1>Google</h1>
+    <div class="appbar">
+        <label style="margin-left: 10px;color: #f28b82;">Advanced Search</label></div>
+        <div class="find">
+            <span>Find pages with...</span>
+        </div>
+        
+    <form  action="https://google.com/advanced_search">
+       <br><br>
+    <label>all these words:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input  type="text" name="as_q" ><br><br>
+    <label>this exact word or phrase:</label>
+    <input  type="text" name="as_q" ><br><br>
+    <label>any of these words:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input  type="text" name="as_q" ><br><br>
+    <label>none of these words:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input  type="text" name="as_q" ><br><br>
+    <input  type="submit" value="Advanced Search">
+
+
     
+
+</form>
 </body>
 </html>
